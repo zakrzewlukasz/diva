@@ -16,14 +16,14 @@ Cały back siedzi w folderze api. Apka pod butonami wywoływać określone funcj
 
 Jak widać po zakładkach apka ma klika zadań, kótre wyszególniłem poniżej.
 
-1.Archiwizacja obiektów w systemie. Wywołanie fukcji getArchiveRequest() z DivaHandler.java. Zebranie informacji od użytkownika, utworzenie obiektu ObjectRq.java oraz 
+1. Archiwizacja obiektów w systemie. Wywołanie fukcji getArchiveRequest() z DivaHandler.java. Zebranie informacji od użytkownika, utworzenie obiektu ObjectRq.java oraz 
 przetrzymanie requesta w bazie danych.
 Problemem, który napotkałem w tym miejscu to połączenie widoku z zakładki Wyszukaj z widokiem z zakładki archiwizuj. Innymy słowy chciałbym, aby przy polu lista plików był 
 przycisk, dzięki kótremu bedziemy mogli dodać pliki i do tego ma posłużyć ten widok z zakładki wyszukaj. Nie mogłem połaczyć tech dwóch rzeczy.... Sprawa jest o tyle złożona, że
 będziemy musieli przeszukiwać serwer w poszukiwaniu plików, a  nie tak jak zawyczaj hosta. Napisałem fukcję w javie, kótra zwraca w postaci listy pliki/katalogi z danej ścieżki 
 na serwerze. To info trzeba wrzucić do tej wyszukiwarki plików. Klasa do przeglądania plików na serwie znajduje się w katalogu file.
 
-2....
+2. ...
 
 
 
