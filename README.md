@@ -4,14 +4,10 @@ Spring app
 Aplikacja do obsługi sytemu do archiwizacji danych opartych na kasetkach LTO. System nazywa się DIVArchive i wystawia API w javie, z kótrego korzystam w swoim projekcie.
 
 Główne załoażenia:
-
--Archiwizacja
-
--Wyszukiwanie 
-
--Odzyskiwnaie 
-
--Infomacja o obenych reqestach, kótre przetwarza system 
+- Archiwizacja
+- Wyszukiwanie 
+- Odzyskiwnaie 
+- Infomacja o obenych reqestach, kótre przetwarza system 
 
 Aby uzyskać prawidłowy widok aplikacji na stronie trzeba wykonać w terminalu polecenie "mvnw wro4j:run". Jest to co najmniej dziwne, ale ten thymeleaf powduje coś takiego. 
 Nie upieram się przy nim i myślę, że lepiej jest wykonać widoki np. css.
