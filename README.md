@@ -15,6 +15,7 @@ Nie upieram się przy nim i myślę, że lepiej jest wykonać widoki np. css.
 Cały back siedzi w folderze api. Apka pod butonami wywoływać określone funcje z tego pliku.
 
 Jak widać po zakładkach apka ma klika zadań, kótre wyszególniłem poniżej.
+
 1.Archiwizacja obiektów w systemie. Wywołanie fukcji getArchiveRequest() z DivaHandler.java. Zebranie informacji od użytkownika, utworzenie obiektu ObjectRq.java oraz 
 przetrzymanie requesta w bazie danych.
 Problemem, który napotkałem w tym miejscu to połączenie widoku z zakładki Wyszukaj z widokiem z zakładki archiwizuj. Innymy słowy chciałbym, aby przy polu lista plików był 
