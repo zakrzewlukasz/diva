@@ -1,0 +1,44 @@
+<html xmlns:th="https://www.thymeleaf.org"
+      th:replace="~{fragments/layout :: layout (~{::body},'objects_rq')}">
+
+<body>
+
+<h2>Obiekt</h2>
+<form th:object="${objectRq}" class="form-horizontal" id="add-object-form" method="post">
+  <div class="form-group has-feedback">
+    <input
+      th:replace="~{fragments/inputField :: input ('Nazwa obiektu', 'nameObj', 'text')}" />
+    <input
+      th:replace="~{fragments/inputField :: input ('Kategoria', 'categoryObj', 'text')}" />
+    <input
+      th:replace="~{fragments/inputField :: input ('Komentarz', 'commentObj', 'text')}" />
+    <input
+      th:replace="~{fragments/inputField :: input ('Dysk', 'sourceDiskObj', 'text')}" />
+    <input
+      th:replace="~{fragments/inputField :: input ('Scieżka', 'directoryObj', 'text')}" />
+    <input
+      th:replace="~{fragments/inputField :: input ('Media', 'destinationDiskObj', 'text')}" />
+    <input
+      th:replace="~{fragments/inputField :: input ('Opcje', 'optionsObj', 'text')}" />
+    <input
+      th:replace="~{fragments/inputField :: input ('Lista plików', 'fileNameList', 'text')}" />
+    <input
+      th:replace="~{fragments/inputField :: input ('Priorytet', 'operationPriority', 'number')}" />
+    <input
+      th:replace="~{fragments/inputField :: input ('Data', 'operationDate', 'date')}" />
+    <input
+      th:replace="~{fragments/inputField :: input ('Czas', 'operationTime', 'text')}" />
+    <input
+      th:replace="~{fragments/inputField :: input ('Status', 'operationStatus', 'text')}" />
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button
+        th:with="text=${objectRq['new']} ? 'Wyślij' : 'Send Rq'"
+        class="btn btn-default" type="submit" th:text="${text}">Add
+        Owner</button>
+    </div>
+  </div>
+</form>
+</body>
+</html>
