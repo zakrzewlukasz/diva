@@ -31,6 +31,7 @@ szczegółowego info o obiekcie.
 
 4. Panel logownaia do aplikacji. Dodawanie userów i przywileje np. tylko do wyszukiwania.
 
+5. Główny layout apki jest ok, ale jest zerżnięty z przykładowego projektu springa dostępnego na stornie. Należy pomyśleć o jego przebudowie.
 
 
 
