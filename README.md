@@ -23,7 +23,14 @@ przycisk, dzięki kótremu bedziemy mogli dodać pliki i do tego ma posłużyć 
 będziemy musieli przeszukiwać serwer w poszukiwaniu plików, a  nie tak jak zawyczaj hosta. Napisałem fukcję w javie, kótra zwraca w postaci listy pliki/katalogi z danej ścieżki 
 na serwerze. To info trzeba wrzucić do tej wyszukiwarki plików. Klasa do przeglądania plików na serwie znajduje się w katalogu file.
 
-2. ...
+2. Wyszukiwanie obiektów. Testowy wygląd storny pod findObjects.html. Stronę należy uzupłnić o dodatkowe pola, które znajdują się w obiekcie ObjectFeatures.java. Po wyszukaniu ma pojawiac się skrócona lista wyników (tylko np. nazwa + kategoria + media). Mamy możliwość wejścia w obiekt i wyświetlenie większej ilości informacji. Funkcja, która wypluwa listę obiektów z Divy nazywa się getObjectListByFileName(). Przekazujemy do niej dwie wartości (nazwę oraz kategorię obiektu). 
+Na liście, którą widzi na stonie użytkownik ma on możliwość wybrania dnaego obiektu i pod PPM wykonania usunięcia obiektu, odzyskania obiektu i wyżej opisanego wyświetlenia 
+szczegółowego info o obiekcie.
+
+3. Zakaładka strona główna ma umożliwiać podgląd wysłanych requestów. Zmianę ich priorytetu, usunięcie z listy. Dobrą praktyką w przyadku tego systemu będzie możliwość ustawiania requestów archiwizacji np. na odplanie po godzinie 22, aby nie obciązały systemu, gdy pracują na Divie pracownicy. Wyświetlnaie innych info np. zajętość systemu. Ilość wolnych kasetek LTO w systemie.
+
+4. Panel logownaia do aplikacji. Dodawanie userów i przywileje np. tylko do wyszukiwania.
+
 
 
 
