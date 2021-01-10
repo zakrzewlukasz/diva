@@ -1,4 +1,4 @@
-# diva
+# Diva
 Spring app 
 
 Aplikacja do obsługi sytemu do archiwizacji danych opartych na kasetkach LTO. System nazywa się DIVArchive i wystawia API w javie, z kótrego korzystam w swoim projekcie.
